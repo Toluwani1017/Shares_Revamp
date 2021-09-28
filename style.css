@@ -1,0 +1,23 @@
+*{
+    background-color:rgb(252, 199, 180);
+    padding: 3px;
+}
+
+#heading{
+    text-align: center;
+}
+
+#shareList{
+    flex: content;
+    padding-left: 100px;
+}
+
+#shareList.child{
+    font-size: larger;
+}
+
+#cont2{
+    padding-top: 20px;
+    padding-left: 100px;
+    font-size: larger;
+}
