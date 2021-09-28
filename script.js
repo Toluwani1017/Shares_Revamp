@@ -38,7 +38,7 @@ function init(){
         else{
             dayShareArray[i] = 0;
             var li = document.createElement('li');
-            li.innerHTML = "Day " + dayCounter + " . Shares traded:   " +  dayShareArray[i] + "  Not traded.";
+            li.innerHTML = "Day " + dayCounter + " . Shares traded:   " +  dayShareArray[i] + "  Market Closed, not traded.";
             ul.appendChild(li);
         }
        
